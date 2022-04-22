@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/ok1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(252, 247, 247);
+    background-color: rgb(13, 13, 14);
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: normal;
+    margin-top: -10rem;
+    color: rgb(252, 247, 247);
+    background-color: rgb(13, 13, 14);
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bolder;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}

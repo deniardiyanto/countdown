@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- 
+    The doctype above indicate the type or version of html I am using
+which in my case I am working with HTML5
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <!-- external stylesheet is been added to the html here -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    <h1>&nbsp;&nbsp;AKAD <span style='font-size:60px;'>&#128518;</span>&nbsp;</h1>
+    <!-- below is the coundown container -->
+    <div class="countdown-container">
+        <!-- Days count down  -->
+        <div class="countdown-el days-c">
+            <p class="big-text" id="days">0</p>
+            <span>Days</span>
+        </div>
+
+        <!-- Hours count down  -->
+        <div class="countdown-el hours-c">
+            <p class="big-text" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+
+        <!-- Minutes count down  -->
+        <div class="countdown-el mins-c">
+            <p class="big-text" id="mins">0</p>
+            <span>Minutes</span>
+        </div>
+
+        <!-- Seconds count down  -->
+        <div class="countdown-el secs-c">
+            <p class="big-text" id="secs">0</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+</body>
+<!-- Javascript is been included to the html here -->
+<script type="module" src="./js/main.js"></script>
+
+</html>
