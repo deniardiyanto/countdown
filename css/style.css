@@ -268,8 +268,8 @@ Header
 }
 
 a.btn-banner {
-    border: 5px solid #ffffff;
-    padding: 12px 22px;
+    border: 1px solid #ffffff;
+    /* padding: 12px 22px; */
     line-height: 0px;
     border-radius: 3px;
     font-family: 'Montserrat', sans-serif;
@@ -279,7 +279,7 @@ a.btn-banner {
     color: #ffffff;
     letter-spacing: 1px;
     display: inline-block;
-    margin-top: 95px;
+    margin-top: 10px;
 }
 
 a.btn-banner i {
@@ -413,7 +413,7 @@ p.cta-sub-title {
 }
 
 .service-box {
-    margin: 0 0 60px;
+    margin: 0 0 10px;
     display: inline-block;
 }
 
@@ -452,6 +452,10 @@ p.cta-sub-title {
     -moz-transition: all 0.5s ease 0s;
     -ms-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+}
+
+.service-box .service-text b {
+    font-weight: bold;
 }
 
 .page-title {
@@ -499,7 +503,7 @@ p.cta-sub-title {
 }
 
 .team-info {
-    border: 1px solid rgba(204, 204, 204, 0.33);
+    border: 0px solid rgba(204, 204, 204, 0.33);
     float: left;
     width: 100%;
     border-radius: 3px;
@@ -671,7 +675,12 @@ p.cta-sub-title {
 }
 
 .inner-bg {
-    background: #fc8477;
+    /* background: #fc8477; */
+    background-image: linear-gradient(rgba(0, 0, 255, 0.39), rgba(255, 255, 0, 0.5)), url("../img/bg.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .cta-2 .btn-default,
